@@ -1,0 +1,51 @@
+body{
+	margin: 0px;
+	background-image: url(https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ea9cb2c64e531594aac6443bf9d71e9&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.welcome {
+	color: white;
+	margin-top: 450px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 70px;
+}
+
+.welcome:hover {
+	transition-duration: 1s;
+	color: #FF0700;
+}
+
+.future {
+	color: white;
+	margin-top: -40px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 40px;
+}
+
+.btn {
+	font-weight: 400;
+	margin-top: 60px;
+	font-size: 2rem;
+	border-radius: 500px
+}
+
+.btn-primary {
+	background-color: #FF6400;
+	border-color: #FF6400;
+	border-width: 5px;
+}
+
+.btn-primary:hover {
+	background-color: #FF7900;
+	border-color: #FF7900;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
