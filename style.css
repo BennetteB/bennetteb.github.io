@@ -31,6 +31,7 @@ body{
 .btn {
 	font-weight: 400;
 	margin-top: 60px;
+	margin-left: 40px;
 	font-size: 2rem;
 	border-radius: 500px
 }
